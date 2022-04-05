@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;;
+  color: rgba(10, 10, 10, 0.951);
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px;
+}
+
+.head-left{
+  margin: 0px;
+  padding: 0px;
+}
+
+.img-a{
+  font-size: 22px;
+  padding-left: 4px;
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  vertical-align: middle;
+  color: rgb(97, 97, 97);
+  cursor: pointer;
+}
+
+.img-head, .btn-a{
+  cursor: pointer;
+}
+
+.head-right{
+  display: flex;
+  margin-top: 6px;
+  padding: 0px;
+}
+
+
+.head-right2{
+  margin-right: 20px;
+  padding: 0px;
+}
+
+#s1, #s2, #s3, #s4, #s5{
+  cursor: pointer;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 140px;
+  position: relative;
+  left: -80px;
+}
+
+
+.hero-a{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-a-head{
+  font-size: 22px;
+  width: 500px;
+}
+
+.hero-a-para{
+  font-size: 19px;
+  width: 500px;
+}
+
+hr{
+  margin-top: 38px;
+}
+
+.hero-b-img{
+  width: 340px;
+}
+
+.hero-b-head{
+  width: 340px;
+  text-align: center;
+}
+
+.hero-b-para{
+  width: 340px;
+  text-align: center;
+}
+
+.hero-a-click{
+  display: flex;
+  margin-top: 30px;
+}
+
+.btn-a{
+  background-color: rgb(10, 132, 247);
+  border: 0px;
+  padding: 11px 30px;
+  border-radius: 4px;
+}
+
+.btn-b{
+  border: solid 1px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+}
+
+#aa, #a{
+  color: #fff;
+  vertical-align: middle;
+
+}
+
+#bb, #b{
+  vertical-align: middle;
+}
+
+#b{
+  border: 0px;
+}
+
+
+.learn-more{
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.learn-more1, .learn-more21{
+  color: rgb(0, 166, 255);
+}
+
+
+@media only screen and (max-width: 1200px){
+  .hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 0px 40px;
+    left: 0px;
+  }
+
+  .hero-a{
+    margin-bottom: 40px;
+  } 
+
+  .hero-a-para{
+    font-size: 18px;
+    width: 550px;
+  }
+  
+  .hero-b-img, .hero-b-head, .hero-b-para{
+    width: 500px;
+  }
+
+  .learn-more{
+    display: none;
+  }
+
+  .learn-more2{
+    text-align: left;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 800px){
+  .learn-more2{
+    display: none;
+  }  
+}
